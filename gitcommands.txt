@@ -5,3 +5,4 @@ git add-add to staging area
 git status-show changes made
 git reset HEAD filename-resets file in  stage to same as head commit
 git reset commit_SHA-resets till this committry this
+updated on hub
