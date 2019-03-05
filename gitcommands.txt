@@ -1,0 +1,7 @@
+git commands
+git diff-shows diff between current directory and last commit
+git checkout HEAD filename-discard last changes made and restore to the last commit
+git add-add to staging area
+git status-show changes made
+git reset HEAD filename-resets file in  stage to same as head commit
+git reset commit_SHA-resets till this commit
