@@ -4,5 +4,12 @@ git checkout HEAD filename-discard last changes made and restore to the last com
 git add-add to staging area
 git status-show changes made
 git reset HEAD filename-resets file in  stage to same as head commit
-git reset commit_SHA-resets till this committry this
-updated on hub
+git reset commit_SHA-resets till this commit
+echo "message">>file-edits the file
+git auth key-04042e877264c06f874448791fabe5449a0da9a3(confidential)
+git clone https://github.com/ekthapriyesh24/gitcommands.git-copy from  github
+git remote add origin https://github.com/ekthapriyesh24/loginpage.git-connect to online server
+git remote -v-see connected servers
+git push origin master-to push to online server
+cd-go to top server
+git rebase -i HEAD~n for deleting n commits
