@@ -6,7 +6,6 @@ git status-show changes made
 git reset HEAD filename-resets file in  stage to same as head commit
 git reset commit_SHA-resets till this commit
 echo "message">>file-edits the file
-git auth key-04042e877264c06f874448791fabe5449a0da9a3(confidential)
 git clone https://github.com/ekthapriyesh24/gitcommands.git-copy from  github
 git remote add origin https://github.com/ekthapriyesh24/loginpage.git-connect to online server
 git remote -v-see connected servers
