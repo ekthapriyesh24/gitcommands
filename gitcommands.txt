@@ -12,5 +12,6 @@ git remote -v-see connected servers
 git push origin master-to push to online server
 cd-go to top server
 git rebase -i HEAD~n for deleting n commits
-git add -A add all the changes to the stage
+git add -A add all the changes to the stage(there is also a risk of the addition of all files of git Ignore which are modified unintentionally)
+git add -u add all the files which are currently being tracked
 git push origin --delete branch -deletes the branch from remote server
