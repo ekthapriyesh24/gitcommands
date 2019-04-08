@@ -70,3 +70,5 @@ git commit -m "New message for the combined commit"
 
 git reflog
 //for reverting changes using git
+
+// this is my first commit
