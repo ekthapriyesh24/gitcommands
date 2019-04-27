@@ -69,6 +69,6 @@ git commit -m "New message for the combined commit"
 //To squash the last 2 commits into one: coz 1 doesn't makes senses
 
 git reflog
-//for reverting changes using git
+//Used as a Time Machine in git for reverting ANY COMMAND. Just enter git reset {HEAD@number} after which your code broke
 
 // this is my first commit
