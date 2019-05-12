@@ -71,4 +71,5 @@ git commit -m "New message for the combined commit"
 git reflog
 //Used as a Time Machine in git for reverting ANY COMMAND. Just enter git reset {HEAD@number} after which your code broke
 
-// this is my first commit
+git rm --cached <filename>
+//to remove a particular file from staging area
