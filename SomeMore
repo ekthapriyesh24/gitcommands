@@ -77,3 +77,17 @@ git rm --cached <filename>
 git fetch origin pull/ID/head:BRANCHNAME
 git checkout BRANCHNAME
 // To fetch a remote PR into your local repo and to check/test the changes
+
+-----------------------------------------------------------
+
+On branch -a 
+
+git merge -Xtheirs branch-b
+git rebase -Xtheirs branch-b
+// Will rebase/merge branches giving priority to branch-a when merge conflict arises
+
+git merge -Xours branch-b
+git rebase -Xours branch-b
+// Will rebase/merge branches giving priority to branch-b when merge conflict arises
+
+-----------------------------------------------------------
