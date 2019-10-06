@@ -1,0 +1,93 @@
+Learning Git and GitHub
+
+diff -u <file1> <file2>
+start <filename>
+
+git based commands
+
+git log
+
+git diff <idCommitOld> <idCommitNew>
+// first four digits of id will be sufficient
+
+git--stat //for getting stats of multifile
+ 
+git checkout <id>
+
+git init
+
+git status
+
+git add <filename>
+//to add files to staging area 
+
+git reset
+//clears the staging area
+
+git commit 
+//to commit changes after modifying files in staging area
+
+
+GITHUB
+
+git remote
+//to check all remotes
+
+git remote add <remoteName> <URL>
+//add new remote 
+
+git remote -v
+//more detailed info of remotes (name+URL) (v stands for verbose)
+
+git push <remoteName> <branchName>
+//name of the branch to push to the following remote
+
+git pull <remoteName> <branchName>
+//to pull changes from repository
+
+git remote remove <remoteName>
+//to delete remote 
+
+git reset --hard HEAD~1
+//to delete last commit
+
+git push new HEAD --force
+// forcing push
+
+git reset --hard [commitId] 
+//for nullify all the changes(whether comitted or not) after the given commit
+
+git fetch --all
+git reset --hard upstream/master
+// for force pull..same as deleting the repo and cloning it once again
+
+git diff --staged or git diff --cached
+//to find difference between staged file and last commit
+
+git reset --soft HEAD~2
+git commit -m "New message for the combined commit"
+//To squash the last 2 commits into one: coz 1 doesn't makes senses
+
+git reflog
+//Used as a Time Machine in git for reverting ANY COMMAND. Just enter git reset {HEAD@number} after which your code broke
+
+git rm --cached <filename>
+//to remove a particular file from staging area
+
+git fetch origin pull/ID/head:BRANCHNAME
+git checkout BRANCHNAME
+// To fetch a remote PR into your local repo and to check/test the changes
+
+-----------------------------------------------------------
+
+On branch -a 
+
+git merge -Xtheirs branch-b
+git rebase -Xtheirs branch-b
+// Will rebase/merge branches giving priority to branch-a when merge conflict arises
+
+git merge -Xours branch-b
+git rebase -Xours branch-b
+// Will rebase/merge branches giving priority to branch-b when merge conflict arises
+
+-----------------------------------------------------------
